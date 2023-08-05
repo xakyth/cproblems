@@ -1,9 +1,9 @@
-package leetcode.cp1;
+package leetcode.mix;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Solution {
+public class cp1 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, ArrayList<Integer>> hs = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

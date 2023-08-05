@@ -1,4 +1,4 @@
-package leetcode.cp111;
+package leetcode.mix;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -8,7 +8,7 @@ import java.util.Queue;
  * Definition for a binary tree node.
 
  */
-class Solution {
+class cp111 {
     public class TreeNode {
     int val;
     TreeNode left;

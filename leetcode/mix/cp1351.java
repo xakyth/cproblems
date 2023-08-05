@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.mix;
+
+class cp1351 {
     public int countNegatives(int[][] grid) {
         int cnt = 0, m = grid.length, n = grid[0].length;
 

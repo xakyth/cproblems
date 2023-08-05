@@ -1,6 +1,6 @@
-package leetcode.cp1601;
+package leetcode.mix;
 
-public class Solution {
+public class cp1601 {
 
     private int best = 0;
 

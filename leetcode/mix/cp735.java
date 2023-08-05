@@ -1,9 +1,9 @@
-package leetcode.cp735;
+package leetcode.mix;
 
 import java.util.ArrayList;
 import java.util.Stack;
 
-class Solution {
+class cp735 {
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> positiveAsteroids = new Stack<>();
         ArrayList<Integer> temp = new ArrayList<>();

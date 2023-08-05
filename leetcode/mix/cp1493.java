@@ -1,6 +1,6 @@
-package leetcode.cp1493;
+package leetcode.mix;
 
-class Solution {
+class cp1493 {
     public int longestSubarray(int[] nums) {
         int best = 0;
         int cnt1 = 0;

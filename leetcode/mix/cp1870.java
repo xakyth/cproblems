@@ -1,6 +1,6 @@
-package leetcode.cp1870;
+package leetcode.mix;
 
-public class Solution {
+public class cp1870 {
     public int minSpeedOnTime(int[] dist, double hour) {
         int l = 0;
         int r = 10_000_000;
