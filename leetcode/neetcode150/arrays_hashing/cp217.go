@@ -3,13 +3,12 @@ package main
 import "fmt"
 
 func containsDuplicate(nums []int) bool {
-	setNums := make(map[int]bool)
-	for i := 0; i < len(nums); i++ {
-		if setNums[nums[i]] {
-			fmt.Println(setNums)
+	setNums := make(map[int]struct{})
+	for _, v := range nums {
+		if _, ok := setNums[v]; ok {
 			return true
 		}
-		setNums[nums[i]] = true
+		setNums[v] = struct{}{}
 	}
 	return false
 }
